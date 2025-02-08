@@ -1,0 +1,22 @@
+Eye Controlled Mouse 
+
+Eye Controlled Mouse is an interesting computer vision and machine learning application that has the potential to significantly benefit persons with disabilities. Using OpenCV, MediaPipe, and PyAutoGUI, this project showed how to construct a simple eye-controlled mouse prototype. The mouse pointer can be shifted and mouse clicks imitated by tracking eye blinks. While the current implementation is slow and requires optimization, it opens the door to new possibilities for human-computer interaction.
+
+To use this :
+open terminal and paste(in vscode) :
+pip install opencv-python mediapipe pyautogui pyttsx3 numpy
+
+After installing all directories and modueles: 
+python main.py
+
+You will be able to use it .
+Just look at the point on screen where the cursor should move the cursor moves there .(It is kind of slow , if you want to increase ,at line 40 self.mouse_speed = 20 increase the speed)
+Both eye blink : right click
+Left eye blink : Left click
+Both eye blink twice : Double click
+Closing eye for longer Duration : Pause and Resume
+
+Notes:
+-Should have good lighting .
+-More than one person and dark conditions may cause disturbances.
+-PyAutoGUI is off so if it get stuck at corners of the screen tilt your head slightly to the direction it will be able to move.
